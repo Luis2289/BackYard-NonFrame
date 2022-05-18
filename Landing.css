@@ -4,10 +4,10 @@
   text-decoration: none;
   font-family: "Raleway", sans-serif;
 }
-/* :root {
+:root {
   --surface-color: #fff;
   --curve: 40;
-} */
+}
 
 body {
   background-color: #f6f4e8;
@@ -277,7 +277,10 @@ button:hover {
   .col-2 {
     grid-column-start: 2;
   }
-  .roww > h2, .roww > h3, .roww > h4, .roww > p {
+  .roww > h2,
+  .roww > h3,
+  .roww > h4,
+  .roww > p {
     font-size: 10px;
   }
   .roww img {
@@ -310,27 +313,21 @@ button:hover {
 /* Infographic End  */
 /* ======================================= */
 
-/* ======================================= */
-/* Offers Init  */
-
+/* ====================================== */
+/* Card Init */
 .card-container {
   margin-top: 5rem;
-  /* background-color: red; */
   width: 100%;
 }
 /* texto offers Init */
 .text-offer {
-  /* background-color: #6a515e; */
-}
-.text-offer h1 {
   text-align: center;
-  font-size: 40px;
-  font-weight: 200;
+  font-weight: 500;
 }
 /* texto offers End */
 
 .main-container__offers {
-  /* background-color: red; */
+  background-color: red;
   height: 85rem;
   width: 95%;
   margin-top: 3rem !important;
@@ -389,6 +386,7 @@ button:hover {
   z-index: 1;
   border-radius: calc(var(--curve) * 1px);
   background-color: var(--surface-color);
+  opacity: 80%;
   transform: translateY(100%);
   transition: 0.2s ease-in-out;
 }
@@ -438,7 +436,7 @@ button:hover {
   font-size: 1em;
   margin: 0 0 0.3em;
   font-weight: 600 !important;
-  color: whitesmoke;
+  color: black;
 }
 
 .card__tagline {
@@ -448,27 +446,21 @@ button:hover {
   font-family: "MockFlowFont";
   font-size: 0.8em;
 
-  color: #ffffff;
+  color: black;
 }
 
 .card__status {
-  font-size: 0.9em;
-  color: #ffffff;
-  font-weight: 600 !important;
+  font-size: 1.1em;
+  color: rgb(78, 78, 78);
+  font-weight: 700 !important;
 }
 
 .card__description {
   padding: 0 2em 2em;
   margin: 0;
-
-  color: #ffffff;
-
-  font-family: "MockFlowFont";
-
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
+  color: #101010;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
 }
 .card-item {
   width: 90%;
@@ -481,53 +473,31 @@ button:hover {
 /* ======================================= */
 
 /* ======================================= */
-/* Cali Init  */
-.card-contain {
-  margin-top: 1rem;
-  /* background-color: rebeccapurple; */
-}
-.card-contain .card-wrapper {
-  width: 350px;
-  height: 600px;
-}
-.info-container {
-  height: 30rem;
-  width: 100%;
-  /* background-color: red; */
-  display: inline-block;
-}
-.info-container_wrapper {
-  background-color: #bacec2;
-  height: 55rem;
-  width: 100%;
-}
-.info-container_wrapper i {
-  font-size: 30px;
-  padding-left: 8.5rem;
-  margin-top: 3rem;
-}
-.info-container__card {
-  float: left;
-  margin-left: 9rem;
-  margin-top: 5rem;
-  height: 300px;
-  width: 300px;
-  background-color: white;
-  border-radius: 2rem;
-}
-.info-container__txt h1 {
-  font-family: "Poppins", sans-serif;
+/* Footer Init */
+.content p {
+  color: #101010;
   font-size: 18px;
-  font-weight: bold;
+  text-align: justify;
 }
-
-.info-container__txt {
-  padding-top: 2rem;
-  text-align: center;
-  justify-content: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: lighter;
+.content span {
+  color: #101010;
+  font-size: 18px;
 }
-/* Cali Init  */
+.content h6 {
+  color: #101010;
+}
+.content a {
+  color: #101010;
+}
+.foot {
+  color: #101010 !important;
+  font-size: 18px;
+}
+.foot a {
+  color: #101010 !important;
+}
+.container h5 {
+  font-weight: 00;
+}
+/* Footer End*/
 /* ======================================= */
