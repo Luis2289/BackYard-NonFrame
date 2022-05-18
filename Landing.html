@@ -35,29 +35,56 @@
 <body>
     <!-- ========================================================================= -->
     <!-- NavAndLogoContainer Init -->
-    <div class="container">
-        <div class="navbar">
-            <img src="./assets/icons/Logo_Page.png" class="logo" alt="Here´s the logo page">
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">Ofertas</a>
-                    </li>
-
-                    <li><a href="#">Regalos</a></li>
-                    <li><a href="#">Catalogos</a></li>
-                    <li><a href="#">Para Empresas</a></li>
-                    <li><a href="#">Inspirate</a></li>
-                    <li><a href="#">Nosotros</a></li>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+        <a href="#" class="navbar-brand mb-0 h1">
+            <img class="d-inline-block align-top" src="assets/icons/Logo_Page.png" width="30" height="30" alt="">
+        BACKYARD</a>
+        <button 
+        type="button" 
+        data-bs-target="#navbarNav" 
+        data-bs-toggle ="collapse"
+        class="navbar-toggler" 
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Comprar</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Nosotros
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a href="#" class="dropdown-item">Valores</a></li>
+                    <li><a href="#" class="dropdown-item">Misión</a></li>
+                    <li><a href="#" class="dropdown-item">Visión</a></li>
                 </ul>
-            </nav>
-            <img src="./assets/images/menu.png" class="menu-icon" alt="Here´s menu img">
+                </li>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="nav-link">Politicas de envío</a>
+                </li>
+            </ul>
         </div>
-    </div>
+        </div>
+    </nav>
     <div class="roww">
         <div class="col-1">
-            <h2>PS4 V2 <br> Dualshock 4</h2>
+            <h2>El bonsai ideal para ti</h2>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nostrum soluta hic reprehenderita.
             </h3>
             <p>Compatible/generic</p>
@@ -73,12 +100,6 @@
         </div>
 
     </div>
-
-
-    <!--=========================================================================-->
-
-    <!--=========================================================================-->
-    <!-- Offers Init -->
 
     <!-- Inicio Cards -->
     <div class="container-fluid card-container border shadow">

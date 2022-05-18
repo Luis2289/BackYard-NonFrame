@@ -141,38 +141,6 @@ button:hover {
   z-index: -1;
   transform: translateX(150px);
 }
-/* .bg-dark-green {
-  background-color: #bacec2;
-}
-.container-fluid ul {
-  margin: 10px;
-
-  justify-content: center;
-  align-items: center;
-}
-
-.backyard-text {
-  font-family: "Raleway", sans-serif !important;
-  font-size: 32px;
-  font-weight: 600;
-  color: rgb(0, 0, 0) !important;
-}
-
-.position {
-  place-content: end !important;
-}
-.position ul li a {
-  font-size: 18px !important;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400 !important;
-}
-.position ul li a:hover {
-  color: #f3753a !important;
-} */
-/* Navbar End */
-/* ======================================= */
-
-/* =================================== */
 /* Info Init */
 .info-container {
   margin-top: 5rem;
