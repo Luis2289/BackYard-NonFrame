@@ -19,7 +19,6 @@ body {
 /* Navbar Init */
 .container {
   width: 100%;
-  min-height: 100vh;
   padding-left: 8%;
   padding-right: 8%;
   box-sizing: border-box;
@@ -56,8 +55,8 @@ nav ul li a {
 nav ul li a:hover {
   color: #f3753a !important;
 }
-.row {
-  /* background-color: red; */
+.roww {
+  grid-template-columns: repeat(2, 1fr);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -271,6 +270,22 @@ button:hover {
   .info-contain1 {
     width: 100%;
     height: 35rem;
+  }
+  .col-1 {
+    grid-column-start: 1;
+  }
+  .col-2 {
+    grid-column-start: 2;
+  }
+  .roww > h2, .roww > h3, .roww > h4, .roww > p {
+    font-size: 10px;
+  }
+  .roww img {
+    width: 50px;
+  }
+  .color-box {
+    width: 50%;
+    left: 0;
   }
 }
 
