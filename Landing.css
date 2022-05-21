@@ -8,6 +8,9 @@
   --surface-color: #BACEC2;
   --curve: 40;
 }
+.bg-green{
+  background-color: #BACEC2;
+}
 
 body {
   background-color: #f6f4e8;
@@ -267,7 +270,13 @@ button:hover {
   }
 }
 /* Text End */
-
+.logo-name{
+  font-size: 25px;
+  font-weight: 400 !important;
+}
+.nav-letter li a{
+  font-size: 18px;
+}
 .about-button {
   width: 15rem;
   font-size: 16px;
