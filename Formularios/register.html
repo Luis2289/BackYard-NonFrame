@@ -30,45 +30,94 @@
 
 <body>
 
-    <div class="container form">
-        <div class="row m-5">
-            <div class="sec1 col-md-6">
-                <label for="texto">Dirección de correo electrónico</label>
-                <input class="controls m-2" type="email" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-                <label for="texto">Confirmar contraseña</label>
-                <input class="controls m-2" type="password" name="correo" id="correo"
-                    placeholder="Ingrese su Contraseña">
-                <label for="name">Nombre</label>
-                <input class="controls m-2" type="text" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-                <label for="texto">Línea de dirección 1</label>
-                <input class="controls m-2" type="text" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-                <label for="texto">Nombre de la compañía</label>
-                <input class="controls m-2" type="text" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-                <label for="texto">Ciudad / Estado</label>
-                <input class="controls m-2" type="text" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-                <label for="texto">Número de teléfono</label>
-                <input class="controls m-2" type="text" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-                <div class="g-recaptcha" data-sitekey="6Lcf0CsgAAAAAEeqJv0zw4F1t1Tb7bWekpkiSdQ1"></div>
-                <br />
-                <input type="submit" value="Submit">
-                <!-- <input class="controls m-2" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-            <input class="controls m-2" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña"> -->
-            </div>
+    <body class="back">
+        <div class="login-container shadow border">
+            <div class="login-info-container">
+                <h1 class="title">Cuenta Nueva</h1>
 
-            <div class="sec2 col-md-6">
-                <input class="controls m-2" type="password" name="correo" id="correo"
-                    placeholder="Ingrese su Contraseña">
-                <input class="controls m-2" type="password" name="correo" id="correo"
-                    placeholder="Ingrese su Contraseña">
-                <input class="controls m-2" type="password" name="correo" id="correo"
-                    placeholder="Ingrese su Contraseña">
-            </div>
+                <p>¿Ya tienes cuenta?</p>
+                <a href="./login.html" class="span">Iniciar Sesión</a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <form class="inputs-container">
+                    <input class="input m-2" type="email" placeholder="Dirección Correo Electrónico" required>
+                    <input class="input m-2" type="password" placeholder="Contraseña" required>
+                    <input class="input m-2" type="password" placeholder="Confirmar Contraseña" required>
+                    <input class="input m-2" type="text"  onkeypress="return sololetras(event)" placeholder="Nombre" required>
+                    <input class="input m-2" type="text"  onkeypress="return sololetras(event)" placeholder="Apellido" required>
+                    <select name="selección" class="input m-2" required>
+                        <option value="value0">Selecciona pais:</option>
+                        <option value="value1">Nicaragua</option>
+                        <option value="value2">Costa Rica</option>
+                        <option value="value3">Hondura</option>
+                        <option value="value4">Salvadors</option>
+                    </select>
+                    <input class="input m-2" type="text"  onkeypress="return sololetras(event)" placeholder="Línea de dirección 1" required>
+                    <input class="input m-2" type="text"  onkeypress="return sololetras(event)" placeholder="Línea de dirección 2">
+                    <input class="input m-2" type="text"  onkeypress="return sololetras(event)" placeholder="Ciudad" required>
+                    <input class="input m-2" type="text"  onkeypress="return solonumeros(event)" placeholder="Codigo Postal" required>
+                    <input class="input m-2" type="text"  onkeypress="return solonumeros(event)" placeholder="Número de teléfono" required>
+                    <br>
+                    <br>
 
+                    <button class="btn">Crear Cuenta</button>
+                    <a href="./register.html" class="span">Terminos y condiciones</a>
+                    <div>
+                        <input type="checkbox" required>Acepto los terminos y condiciones
+                    </div>
+                </form>
+            </div>
+            <img class="image-container" src="./assets/images/login.svg" alt="">
         </div>
-    </div>
 
+        <!-- ============================================== -->
+        <!-- Solo letras -->
+        <script>
+            function sololetras(e) {
+                key = e.keycode || e.which;
+                teclado = String.fromCharCode(key).toLocaleLowerCase();
+                letras = " abcdefghijkmnlñopqrstuvwxyz";
+                especiales = "8-37-38-46-164";
+                teclado_especial = false;
+                for (var i in especiales) {
+                    if (key == especiales[i]) {
+                        teclado_especial = true; break;
+                    }
+                }
+                if (letras.indexOf(teclado) == -1 && !teclado_especial) {
+                    return false;
+                }
 
+            }
+        </script>
+        <!-- Solo letras -->
+        <!-- ============================================== -->
 
-</body>
+          <!-- ============================================== -->
+        <!-- Solo numeros -->
+        <script>
+           function solonumeros(e){
+            key = e.keycode || e.which;
+            teclado = String.fromCharCode(key);
+            numeros="0123456789";
+            especiales="8-37-38-46";
+            teclado_especial=false;
+
+            for(var i in especiales){
+                if(key==especiales[i]){
+                    teclado_especial=true;
+                }  
+            }
+            if(numeros.indexOf(teclado)==-1 && !teclado_especial){
+                return false;
+            }
+           }
+        </script>
+        <!-- Solo numeros -->
+        <!-- ============================================== -->
+    </body>
 
 </html>
