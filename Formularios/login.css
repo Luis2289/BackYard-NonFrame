@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  height: 50rem;
+  font-family: "Poppins", sans-serif;
+}
+.back {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='760' preserveAspectRatio='none' viewBox='0 0 1440 760'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1058%26quot%3b)' fill='none'%3e%3crect width='1440' height='760' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M381.76 648.89 a143.11 143.11 0 1 0 286.22 0 a143.11 143.11 0 1 0 -286.22 0z' fill='rgba(81%2c 204%2c 130%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1088.854%2c914.11C1161.76%2c918.073%2c1236.709%2c887.401%2c1272.04%2c823.504C1306.487%2c761.204%2c1283.69%2c687.454%2c1248.349%2c625.657C1212.683%2c563.293%2c1160.677%2c501.521%2c1088.854%2c503.191C1018.82%2c504.819%2c973.135%2c570.178%2c941.706%2c632.785C914.044%2c687.888%2c908.616%2c750.669%2c937.193%2c805.303C968.1%2c864.393%2c1022.267%2c910.491%2c1088.854%2c914.11' fill='rgba(81%2c 204%2c 130%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M56.006%2c666.105C79%2c666.574%2c104.444%2c661.546%2c115.426%2c641.339C126.107%2c621.687%2c114.14%2c599.296%2c102.792%2c580.022C91.681%2c561.151%2c77.836%2c542.158%2c56.006%2c540.419C31.402%2c538.459%2c6.331%2c549.855%2c-5.755%2c571.375C-17.638%2c592.533%2c-12.61%2c618.669%2c0.643%2c638.997C12.671%2c657.445%2c33.988%2c665.656%2c56.006%2c666.105' fill='rgba(81%2c 204%2c 130%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1366.698%2c404.754C1416.814%2c402.86%2c1458.299%2c367.715%2c1480.698%2c322.843C1500.812%2c282.547%2c1493.571%2c235.769%2c1470.297%2c197.212C1447.889%2c160.09%2c1409.99%2c136.428%2c1366.698%2c133.981C1318.285%2c131.245%2c1267.217%2c143.689%2c1240.616%2c184.231C1211.631%2c228.405%2c1210.503%2c286.196%2c1236.727%2c332.063C1263.134%2c378.25%2c1313.533%2c406.763%2c1366.698%2c404.754' fill='rgba(81%2c 204%2c 130%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M167.17 11.82 a209.64 209.64 0 1 0 419.28 0 a209.64 209.64 0 1 0 -419.28 0z' fill='rgba(81%2c 204%2c 130%2c 1)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1058'%3e%3crect width='1440' height='760' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+}
+.login-container {
+  height: 43.75em;
+  width: 60em;
+  margin: 6em auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.login-info-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 0.5rem;
+  background-color: whitesmoke;
+}
+
+.image-container {
+  padding: 2rem;
+  width: 50%;
+  background-color: rgb(238, 238, 238);
+  box-sizing: border-box;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.social-login {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.social-login-element {
+  width: 12.5rem;
+  height: 3.75rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-login-element img {
+  width: 1.875rem;
+  height: 1.875rem;
+  position: relative;
+  top: 0;
+  left: -0.625rem;
+}
+
+.social-login-element:hover {
+  background-color: #fff;
+}
+
+.login-info-container > p {
+  font-size: 1.25em;
+  margin-top: 1.5em;
+}
+
+.inputs-container {
+  height: 55%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input,
+.btn {
+  width: 90%;
+  height: 3.125rem;
+  font-size: 1em;
+}
+
+.input {
+  padding-left: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+.input:hover {
+  border: 2px solid #000
+}
+
+.btn {
+  width: 80%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700 !important;
+  background-color: #4dbd78;
+  cursor: pointer;
+}
+
+.inputs-container p {
+  margin: 0;
+}
+
+.span {
+  color: #4dbd78;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .login-container {
+    width: 70%;
+    margin-top: 3rem;
+  }
+  .login-info-container {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .image-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .login-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .login-container {
+    height: 90%;
+  }
+
+  .social-login {
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+  }
+
+  .login-info-container > p {
+    margin: 0;
+  }
+}

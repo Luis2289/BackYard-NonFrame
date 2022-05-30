@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1920" height="1000" preserveAspectRatio="none" viewBox="0 0 1920 1000"><g mask="url(&quot;#SvgjsMask1056&quot;)" fill="none"><path d="M-123.04 987.68 a330.54 330.54 0 1 0 661.08 0 a330.54 330.54 0 1 0 -661.08 0z" fill="rgba(81, 204, 130, 1)" class="triangle-float1"></path><path d="M1422.48 367.51 a202.39 202.39 0 1 0 404.78 0 a202.39 202.39 0 1 0 -404.78 0z" fill="rgba(81, 204, 130, 1)" class="triangle-float2"></path><path d="M0.86 12.22 a200.88 200.88 0 1 0 401.76 0 a200.88 200.88 0 1 0 -401.76 0z" fill="rgba(81, 204, 130, 1)" class="triangle-float2"></path><path d="M623.093,652.691C677.767,655.097,734.583,637.216,763.079,590.493C792.591,542.105,788.494,479.542,757.731,431.939C729.299,387.942,675.468,374.845,623.093,373.875C568.44,372.863,507.158,379.62,479.534,426.788C451.721,474.279,473.413,532.597,502.932,579.047C529.938,621.543,572.791,650.478,623.093,652.691" fill="rgba(81, 204, 130, 1)" class="triangle-float3"></path></g><defs><mask id="SvgjsMask1056"><rect width="1920" height="1000" fill="#ffffff"></rect></mask><style>
+            @keyframes float1 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-10px, 0)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float1 {
+                animation: float1 5s infinite;
+            }
+
+            @keyframes float2 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-5px, -5px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float2 {
+                animation: float2 4s infinite;
+            }
+
+            @keyframes float3 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(0, -10px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float3 {
+                animation: float3 6s infinite;
+            }
+        </style></defs></svg>
