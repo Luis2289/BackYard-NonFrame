@@ -171,6 +171,7 @@ body {
 @media screen and (max-width: 320px) {
   .login-container {
     height: 55.75em;
+    width: 8cm;
   }
 }
 
@@ -180,6 +181,33 @@ body {
   }
 }
 @media screen and (max-width: 425px) {
+  .login-container {
+    height: 52.75em;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .login-container {
+    height: 52.75em;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .login-container {
+    height: 52.75em;
+  }
+}
+@media screen and (max-width: 440px) {
+  .login-container {
+    height: 52.75em;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login-container {
+    height: 52.75em;
+  }
+}
+@media screen and (max-width: 510px) {
   .login-container {
     height: 52.75em;
   }
