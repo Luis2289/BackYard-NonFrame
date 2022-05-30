@@ -111,6 +111,10 @@
     vertical-align: middle;
     margin-left: 8px;
 }
+.navbar .navbar-nav .micuenta{
+    color: #32C36C;
+    font-weight: 700;
+}
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
