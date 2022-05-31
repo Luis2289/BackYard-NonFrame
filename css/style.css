@@ -593,3 +593,19 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+/* Terminos y condiciones */
+.Encabezado{
+    color: #1A2A36;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.SubEncabezado{
+    color: rgb(0, 107, 0)
+
+}
+
+.titulos{
+    color: black;
+}
