@@ -594,7 +594,7 @@
     color: var(--primary);
 }
 
-/* Terminos y condiciones */
+/* Terminos y condiciones, preguntas frecuentes */
 .Encabezado{
     color: #1A2A36;
     text-align: center;
@@ -608,4 +608,8 @@
 
 .titulos{
     color: black;
+}
+
+.container{
+    text-align: justify;
 }
