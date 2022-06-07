@@ -1,0 +1,254 @@
+[33mcommit 8f5969a973a075a4ffa4a2853cea36eccb993107[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Fri Jun 3 17:12:30 2022 -0600
+
+    Added:Images are optimized
+
+[33mcommit 74588dd693062f571a7a5d584ea58d62467a5f74[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Fri Jun 3 14:09:49 2022 -0600
+
+    Support View and other shit
+
+[33mcommit 079174772e10144acd766207845dad0b99339d4f[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Fri Jun 3 12:06:46 2022 -0600
+
+    IMG Changes
+
+[33mcommit f48cb29248b8a88a236973a249387a74723af890[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Thu Jun 2 12:56:32 2022 -0600
+
+    Img Treatment
+
+[33mcommit 19dfd589d244ae7553357fed170682ddc47b7367[m
+Author: abelcalero505 <abelcalero35@gmail.com>
+Date:   Wed Jun 1 03:59:47 2022 -0600
+
+    Se realizo la mejora de los terminos ycondiciones, y se realizo la alnding de pregutas frecuentes
+
+[33mcommit 84e4bc3672443058b556e42a2b89d452fdb28a4e[m
+Author: abelcalero505 <abelcalero35@gmail.com>
+Date:   Tue May 31 02:38:06 2022 -0600
+
+    Lasm mejoras de los terminos y condiciones terminado
+
+[33mcommit 5810ed5f6c09e134a8429b1545a81a1885933500[m
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Tue May 31 01:33:34 2022 -0600
+
+    Eliminated: Condition Page
+
+[33mcommit 82d51dc47004c6d5e5a0817ef6a338ac8556dbfb[m
+Author: abelcalero505 <abelcalero35@gmail.com>
+Date:   Tue May 31 01:10:07 2022 -0600
+
+    Realizado los terminos y condicionesle faltan algunas mejoras
+
+[33mcommit 0582cc2e7d9dd89f78a057ede0a85b1ed0cdcc27[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Mon May 30 13:43:52 2022 -0600
+
+    Catalog
+
+[33mcommit 5563f6c641db42d64ac399fd05e373d7176b77a1[m
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Mon May 30 13:34:33 2022 -0600
+
+    Added: Category and offers
+
+[33mcommit 795309374bfaf59c338ce0c04a808b6581f41703[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Mon May 30 12:33:24 2022 -0600
+
+    Added:Recaptcha
+
+[33mcommit 9e65989915bbcda00cdd879144a1bed5ec432376[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Mon May 30 12:28:51 2022 -0600
+
+    Added:Media Qery from Register
+
+[33mcommit 9d9c18da01c6b90a0d1e437e04ea280a56b6e89a[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Mon May 30 12:19:01 2022 -0600
+
+    Added:Media Qery from Register
+
+[33mcommit 908b37e4909b1dc1f17f25a81d8ebe262a37c88e[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Mon May 30 12:07:41 2022 -0600
+
+    Added:Navbar spreads
+
+[33mcommit ef62ca9bb9b23e9d8f40a8526fb346c555c65fec[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Mon May 30 12:06:32 2022 -0600
+
+    Added:Navbar spreads
+
+[33mcommit bedc90a1b779ace93a3e1c679510d17f822377af[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Mon May 30 11:46:50 2022 -0600
+
+    Added:Products detail
+
+[33mcommit 451e72c58b40b2f98347d77acbeaaaf4b82a0530[m
+Merge: 595b60a 5a43ab4
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Mon May 30 10:05:59 2022 -0600
+
+    Merge branch 'master' of https://github.com/Luis2289/BackYard-NonFrame
+
+[33mcommit 595b60a742a13ea1e835b6a8caae6468c54e86bd[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Mon May 30 10:05:50 2022 -0600
+
+    Added:Login & Register
+
+[33mcommit 5a43ab4b27745231eb66b96e5e97ea32a63b15ce[m
+Author: abelcalero505 <abelcalero35@gmail.com>
+Date:   Mon May 30 04:31:40 2022 -0600
+
+    Se mejoraron la informacion de la pagina y fotos reales de nostros
+
+[33mcommit 66b78bf1ac4622cdf18769695b4588a9a4bedd3d[m
+Author: abelcalero505 <abelcalero35@gmail.com>
+Date:   Sun May 29 23:20:30 2022 -0600
+
+    se corrige error en la seccion de categorias
+
+[33mcommit 9814611e003251a9d25bc3ae1232195f4ba2f16b[m
+Author: abelcalero505 <abelcalero35@gmail.com>
+Date:   Sun May 29 23:14:42 2022 -0600
+
+    se añadieron las categorias
+
+[33mcommit ea7dde9a22ee7a58d9990386a8a039afda61e914[m
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Sun May 29 22:49:19 2022 -0600
+
+    Added: Create the condition page
+
+[33mcommit 76a4d316d387f0a570a2a0c548cf0fd32a891eee[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Sun May 29 20:52:10 2022 -0600
+
+    Added:Document login
+
+[33mcommit ee8ac0bfd9ea818f745f498dd0cc52eb64a3b3dd[m
+Merge: 1ac127a 7ba4045
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Sun May 29 15:28:19 2022 -0600
+
+    Merge branch 'master' of https://github.com/Luis2289/BackYard-NonFrame
+
+[33mcommit 1ac127aa84f649ccf1f1465659cb7930e419c068[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Sun May 29 15:28:07 2022 -0600
+
+    Added:Document re-structured
+
+[33mcommit 7ba4045a371e8e7705166d2dd9e8869500651b42[m
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Sun May 29 15:05:21 2022 -0600
+
+    Added: First prototype of catalogue
+
+[33mcommit fd5db483b989fc55621943f0225b337916a7ec34[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Sun May 29 11:56:13 2022 -0600
+
+    Added:Card View
+
+[33mcommit 7cbdb36ee577aa0a2662abbed675bbe49fe5d971[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Sat May 28 21:43:48 2022 -0600
+
+    Added:Fixe of all those imagenes that no render
+
+[33mcommit fe809d4a44acbc00ebf1d32e107a575e79d3b87d[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Sat May 28 21:32:00 2022 -0600
+
+    Added:Fixe of all those imagenes that no render
+
+[33mcommit 516fab4b4ff2cdbc5fd316fc684cd2fb08c9e16a[m
+Merge: 977d90c 7b6a970
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Sun May 22 22:17:16 2022 -0600
+
+    Merge branch 'master' of https://github.com/Luis2289/BackYard-NonFrame
+
+[33mcommit 977d90c3218017d0d2117eba7b3f5b104e09edf1[m
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Sun May 22 22:15:16 2022 -0600
+
+    Se añade la página de contacto, error 404 y sobre nosotros
+
+[33mcommit 7b6a970dd390b7c58aebf4e313b914097cca2a79[m
+Merge: d7b9d50 76250c5
+Author: abelcalero505 <abelcalero35@gmail.com>
+Date:   Sun May 22 19:33:02 2022 -0600
+
+    Merge branch 'master' of https://github.com/Luis2289/BackYard-NonFrame
+
+[33mcommit d7b9d501b35b1ef6e63968368092439492f9d3d1[m
+Author: abelcalero505 <abelcalero35@gmail.com>
+Date:   Sun May 22 19:32:23 2022 -0600
+
+    Added : Prueba Luis el lindo Edited : none Eliminated : none
+
+[33mcommit 76250c53cf28c2af21385035bbc946fb730e6442[m
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Sun May 22 18:56:36 2022 -0600
+
+    Added: Se añade información a texto dummy que existía antes por defecto   Eliminated:Texto dummy
+
+[33mcommit 2bc8a553528664957ca83777166b859bfaadde11[m
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Sat May 21 22:12:27 2022 -0600
+
+    Added:Mejora a la pagina principal y reordamiento de las carpetas  Eliminated:Pagina principal
+
+[33mcommit bcbfaa6fa0dc7b424326c6b3927d3b6cd5548cd7[m
+Merge: 1060dd8 06e4a5f
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Sat May 21 16:37:30 2022 -0600
+
+    Merge branch 'master' of https://github.com/Luis2289/BackYard-NonFrame
+
+[33mcommit 1060dd855ffa496991e63d68d8b43f4b15b2112c[m
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Sat May 21 16:35:00 2022 -0600
+
+    Added:Corección bug de section principal Eliminated: None
+
+[33mcommit 06e4a5fd6570b11010761f461ecbd6824f4bdb60[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Wed May 18 13:05:13 2022 -0600
+
+    Add:Landing component
+
+[33mcommit f803ce464fc829160295163bb9a0b0f6ffffc77d[m
+Merge: 791e3f6 6d60913
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Wed May 18 12:39:47 2022 -0600
+
+    Merge branch 'master' of https://github.com/Luis2289/BackYard-NonFrame
+
+[33mcommit 791e3f6ed271184b9412aea891ddf20084ec683c[m
+Author: Liebermen <liebermorazan@gmail.com>
+Date:   Wed May 18 12:38:56 2022 -0600
+
+    Added:Nuevo Navbar Eliminated: None
+
+[33mcommit 6d609132f0afba59222bcdc9dfbb9652e87fecf5[m
+Author: Luis2289 <luis.zuniga12i@std.uni.edu.ni>
+Date:   Wed May 18 11:50:36 2022 -0600
+
+    Added: Landing Elements Edited:None Eliminated:None
+
+[33mcommit 8bbcd1c838612c0ee2aa86512be90207bc04246e[m
+Author: Luis2289 <luis.zuniga12i@std.uni.ed
