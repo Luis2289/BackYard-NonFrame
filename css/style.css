@@ -24,6 +24,12 @@
   bottom: 45px;
   z-index: 99;
 }
+.bag{
+  justify-content: center;
+}
+.txt-number{
+  text-align: center;
+}
 
 /*** Spinner ***/
 #spinner {
